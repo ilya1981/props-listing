@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -30,7 +30,7 @@ jobs:
           node-version: 25.9.0
           cache: 'npm'
       - run: npm install
-      - run: npm lint
+      - run: npm run lint
 
   build:
     needs: [eslint]
