@@ -47,8 +47,8 @@ jobs:
         with:
           node-version: 25.9.0
           cache: 'npm'
-      - run: npm
-      - run: npm build
+      - run: npm install
+      - run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
