@@ -1,8 +1,6 @@
 # Список предложений
 
-[![Build status](https://ci.appveyor.com/api/projects/status/1utm8rjqho7hgbu1?svg=true)](https://ci.appveyor.com/project/neondoll/ra16-homeworks-props-listing)
-
-[Результат (Сайт)](https://neondoll.github.io/ra16-homeworks-props-listing)
+[![CI](https://github.com/ilya1981/props-listing/actions/workflows/main.yml/badge.svg)](https://github.com/ilya1981/props-listing/actions/workflows/main.yml)
 
 ## Описание
 
